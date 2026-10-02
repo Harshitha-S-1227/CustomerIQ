@@ -1,0 +1,25 @@
+# Data & model artefacts (regenerate via the pipeline — see README)
+data/raw/*.csv
+data/interim/*
+data/processed/*
+models/*.pkl
+reports/**/*.csv
+reports/**/*.json
+reports/**/*.xlsx
+reports/**/*.png
+logs/*.log
+
+# Keep folder structure in git
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+!logs/.gitkeep
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
